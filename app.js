@@ -49,7 +49,7 @@ function prettyTrack(key) {
   return t.replace(/\b\w/g, function (c) { return c.toUpperCase(); });
 }
 
-var trackSelect = document.getElementById('track');
+var catSelect = document.getElementById('categoria');
 var content = document.getElementById('content');
 var updated = document.getElementById('updated');
 
@@ -111,37 +111,57 @@ function buildCard(category, rows) {
   return card;
 }
 
-function render(data, track) {
+// O JSON vem organizado por PISTA -> CATEGORIA. O site mostra o
+// contrario (pedido explicito: "em vez de sortear por pistas, sorteia
+// por categoria"), entao vira o indice aqui, uma vez, no carregamento.
+function porCategoria(data) {
+  var idx = {};
+  var tracks = data.tracks || {};
+  Object.keys(tracks).forEach(function (track) {
+    var cats = tracks[track] || {};
+    Object.keys(cats).forEach(function (cat) {
+      if (!idx[cat]) idx[cat] = {};
+      idx[cat][track] = cats[cat];
+    });
+  });
+  return idx;
+}
+
+function sortedTracks(byTrack) {
+  return Object.keys(byTrack).sort(function (a, b) {
+    return prettyTrack(a).localeCompare(prettyTrack(b));
+  });
+}
+
+function render(idx, category) {
   content.innerHTML = '';
-  var byCat = (data.tracks || {})[track];
-  if (!byCat || !Object.keys(byCat).length) {
-    content.appendChild(el('p', 'empty', 'Nenhum recorde nesta pista ainda.'));
+  var byTrack = idx[category];
+  if (!byTrack || !Object.keys(byTrack).length) {
+    content.appendChild(el('p', 'empty', 'Nenhum recorde nesta categoria ainda.'));
     return;
   }
-  sortedCategories(byCat).forEach(function (cat) {
-    content.appendChild(buildCard(cat, byCat[cat]));
+  sortedTracks(byTrack).forEach(function (track) {
+    content.appendChild(buildCard(prettyTrack(track), byTrack[track]));
   });
 }
 
 function boot(data) {
-  var tracks = Object.keys(data.tracks || {}).sort();
-  if (!tracks.length) {
-    trackSelect.style.display = 'none';
+  var idx = porCategoria(data);
+  var cats = sortedCategories(idx);
+  if (!cats.length) {
+    catSelect.style.display = 'none';
     content.appendChild(el('p', 'empty',
       'Nenhum recorde registrado ainda. Corra e volte aqui.'));
   } else {
-    tracks.sort(function (x, y) {
-      return prettyTrack(x).localeCompare(prettyTrack(y));
+    cats.forEach(function (c) {
+      var o = el('option', null, c);
+      o.value = c;
+      catSelect.appendChild(o);
     });
-    tracks.forEach(function (t) {
-      var o = el('option', null, prettyTrack(t));
-      o.value = t;
-      trackSelect.appendChild(o);
+    catSelect.addEventListener('change', function () {
+      render(idx, catSelect.value);
     });
-    trackSelect.addEventListener('change', function () {
-      render(data, trackSelect.value);
-    });
-    render(data, tracks[0]);
+    render(idx, cats[0]);
   }
   if (data.generated_at) {
     updated.textContent = 'Atualizado em ' + fmtDate(data.generated_at);
