@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Recordes — BDL Pinheirinho</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 <header>
@@ -23,6 +23,11 @@
   <p id="updated" class="updated"></p>
 </main>
 
-<script src="app.js"></script>
+<!-- ?v= sobe a cada mudanca em app.js/style.css. Sem isso o navegador
+     reaproveita o JS antigo em cima do HTML novo: quando o seletor
+     mudou de pista pra categoria, quem ja tinha visitado o site pegou
+     JS velho procurando um elemento que nao existe mais e a pagina
+     quebrava ("Cannot read properties of null"). -->
+<script src="app.js?v=2"></script>
 </body>
 </html>
