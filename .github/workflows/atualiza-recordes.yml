@@ -1,0 +1,73 @@
+# Busca os recordes na VPS e comita quando mudam.
+#
+# POR QUE ASSIM: o site fica no GitHub Pages, que e' sempre HTTPS, e o
+# servidor de corrida e' HTTP puro (ws://140.238.187.142:25890). O
+# navegador BLOQUEIA essa leitura direto da pagina (mixed content), entao
+# quem busca e' este workflow — ele roda nos servidores do GitHub, onde
+# nao existe essa restricao, e grava o resultado no repositorio.
+#
+# Assim o site nao depende de token nenhum configurado na VPS: usa o
+# GITHUB_TOKEN que a propria Action ja fornece.
+name: Atualiza recordes
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'    # a cada 10 minutos
+  workflow_dispatch:           # e' o botao "Run workflow" na aba Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualiza-recordes
+  cancel-in-progress: true
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Buscar records.json na VPS
+        id: buscar
+        run: |
+          # --fail: status de erro vira falha do passo em vez de gravar
+          # uma pagina de erro por cima dos recordes bons.
+          if curl -sS --fail --max-time 30 \
+               "http://140.238.187.142:25890/records.json" -o novo.json; then
+            echo "ok=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "Servidor fora do ar ou sem resposta — mantendo o que ja esta publicado."
+            echo "ok=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validar e comparar
+        id: validar
+        if: steps.buscar.outputs.ok == '1'
+        run: |
+          # JSON quebrado nao pode ir pro ar.
+          python -c "import json;d=json.load(open('novo.json'));assert isinstance(d.get('tracks'),dict)"
+          # Compara so' os DADOS: `generated_at` muda a cada leitura, entao
+          # comparar o arquivo inteiro geraria um commit a cada 10 min pra
+          # sempre, mesmo sem recorde novo.
+          python - <<'PY'
+          import json, os
+          def dados(p):
+              try:
+                  return json.load(open(p)).get('tracks')
+              except Exception:
+                  return None
+          mudou = dados('novo.json') != dados('records.json')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('mudou={}\n'.format('1' if mudou else '0'))
+          PY
+
+      - name: Comitar
+        if: steps.validar.outputs.mudou == '1'
+        run: |
+          mv novo.json records.json
+          git config user.name "BDL Recordes"
+          git config user.email "actions@github.com"
+          git add records.json
+          git commit -m "recordes atualizados"
+          git push
