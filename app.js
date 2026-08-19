@@ -49,7 +49,14 @@ function prettyTrack(key) {
   return t.replace(/\b\w/g, function (c) { return c.toUpperCase(); });
 }
 
-var catSelect = document.getElementById('categoria');
+// Aceita o id NOVO e o ANTIGO de proposito. Durante a troca do seletor
+// (pista -> categoria) o navegador de quem ja tinha visitado o site
+// servia o HTML em cache com o id velho, e a pagina inteira quebrava
+// ('Cannot read properties of null'). Com os dois ids, qualquer
+// combinacao de HTML/JS em cache continua funcionando ate o cache
+// expirar sozinho.
+var catSelect = document.getElementById('categoria')
+             || document.getElementById('track');
 var content = document.getElementById('content');
 var updated = document.getElementById('updated');
 
