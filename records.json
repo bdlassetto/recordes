@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T23:13:50",
+ "generated_at": "2026-08-21T00:25:27",
  "tracks": {
   "bdl_londrina": {
    "OUTROS": [
@@ -356,6 +356,24 @@
    ]
   },
   "bdl_spid": {
+   "DTA": [
+    {
+     "car": "",
+     "date": "2026-08-21T00:22:01",
+     "pilot": "Silveira #14",
+     "rt": 0.013,
+     "sum": 5.41,
+     "t201": 5.397
+    },
+    {
+     "car": "bdl_gol_g4_wesley",
+     "date": "2026-08-20T23:47:47",
+     "pilot": "alemao #12",
+     "rt": 0.076,
+     "sum": 5.447,
+     "t201": 5.371
+    }
+   ],
    "STT": [
     {
      "car": "",
