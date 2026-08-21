@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T17:15:42",
+ "generated_at": "2026-08-21T17:46:46",
  "tracks": {
   "bdl_spid_prep201": {
    "DTA": [
@@ -13,11 +13,11 @@
     },
     {
      "car": "bdl_gol_quadrado_95_dta",
-     "date": "2026-08-21T17:07:58",
+     "date": "2026-08-21T17:22:08",
      "pilot": "Silveira #14",
-     "rt": 0.025,
-     "sum": 5.459,
-     "t201": 5.434
+     "rt": 0.047,
+     "sum": 5.418,
+     "t201": 5.371
     },
     {
      "car": "bdl_gol_bola_adilson_cola",
