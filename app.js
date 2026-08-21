@@ -174,18 +174,26 @@ function preencherSeletor(cats) {
   return catSelect.value || cats[0];
 }
 
+// Quando a pagina buscou o arquivo pela ultima vez (relogio do
+// NAVEGADOR). Nao da pra calcular "ha quanto tempo o dado e" a partir de
+// `generated_at`: ele vem sem fuso (e a hora do servidor da VPS), entao
+// comparar com o relogio local mentia — chegou a mostrar "ha 0s" pra um
+// dado de horas atras. Melhor dizer o que da pra provar.
+var ultimaBusca = null;
+
 function mostrarQuando() {
   if (!geradoEm) return;
-  var d = new Date(geradoEm.replace(' ', 'T'));
-  var seg = Math.max(0, Math.round((Date.now() - d.getTime()) / 1000));
-  var quanto;
-  if (seg < 90) quanto = 'ha ' + seg + 's';
-  else if (seg < 5400) quanto = 'ha ' + Math.round(seg / 60) + ' min';
-  else quanto = 'ha ' + Math.round(seg / 3600) + ' h';
-  updated.textContent = 'Atualizado ' + quanto + ' (' + fmtDate(geradoEm) + ')';
+  var texto = 'Dados de ' + fmtDate(geradoEm);
+  if (ultimaBusca) {
+    var seg = Math.max(0, Math.round((Date.now() - ultimaBusca) / 1000));
+    texto += ' — verificado ha ' + (seg < 60 ? seg + 's'
+                                             : Math.round(seg / 60) + ' min');
+  }
+  updated.textContent = texto;
 }
 
 function aplicar(data) {
+  ultimaBusca = Date.now();
   idxAtual = porCategoria(data);
   geradoEm = data.generated_at || null;
   var cats = sortedCategories(idxAtual);
