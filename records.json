@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T16:52:04",
+ "generated_at": "2026-08-21T17:15:42",
  "tracks": {
   "bdl_spid_prep201": {
    "DTA": [
@@ -12,20 +12,28 @@
      "t201": 5.341
     },
     {
+     "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-08-21T17:07:58",
+     "pilot": "Silveira #14",
+     "rt": 0.025,
+     "sum": 5.459,
+     "t201": 5.434
+    },
+    {
+     "car": "bdl_gol_bola_adilson_cola",
+     "date": "2026-08-21T17:06:23",
+     "pilot": "marcolla #96",
+     "rt": 0.034,
+     "sum": 5.508,
+     "t201": 5.474
+    },
+    {
      "car": "bdl_dta_vitin",
      "date": "2026-08-21T09:43:17",
      "pilot": "Alface #22",
      "rt": 0.028,
      "sum": 5.644,
      "t201": 5.617
-    },
-    {
-     "car": "bdl_gol_bola_adilson_cola",
-     "date": "2026-08-21T16:52:02",
-     "pilot": "marcolla #96",
-     "rt": 0.087,
-     "sum": 6.526,
-     "t201": 6.439
     }
    ]
   }
