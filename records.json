@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-08-21T09:44:32",
+ "generated_at": "2026-08-21T14:47:51",
  "tracks": {
   "bdl_spid_prep201": {
    "DTA": [
+    {
+     "car": "bdl_gol_bola_gti_cola",
+     "date": "2026-08-21T14:27:07",
+     "pilot": "Felps #0265",
+     "rt": 0.056,
+     "sum": 5.397,
+     "t201": 5.341
+    },
     {
      "car": "bdl_dta_vitin",
      "date": "2026-08-21T09:43:17",
