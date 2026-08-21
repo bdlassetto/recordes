@@ -152,36 +152,77 @@ function render(idx, category) {
   });
 }
 
-function boot(data) {
-  var idx = porCategoria(data);
-  var cats = sortedCategories(idx);
+// Recarga automatica. A pagina carregava os dados UMA VEZ so: uma aba
+// aberta durante o evento nunca via tempo novo, mesmo quando o arquivo
+// mudava. Agora ela rele sozinha.
+var RECARGA_MS = 20000;
+
+var idxAtual = null;
+var geradoEm = null;
+
+function preencherSeletor(cats) {
+  var antes = catSelect.value;
+  if (catSelect.options.length === cats.length && antes) return antes;
+  catSelect.innerHTML = '';
+  cats.forEach(function (c) {
+    var o = el('option', null, c);
+    o.value = c;
+    catSelect.appendChild(o);
+  });
+  // Mantem a categoria que a pessoa estava vendo, se ainda existir.
+  if (antes && cats.indexOf(antes) !== -1) catSelect.value = antes;
+  return catSelect.value || cats[0];
+}
+
+function mostrarQuando() {
+  if (!geradoEm) return;
+  var d = new Date(geradoEm.replace(' ', 'T'));
+  var seg = Math.max(0, Math.round((Date.now() - d.getTime()) / 1000));
+  var quanto;
+  if (seg < 90) quanto = 'ha ' + seg + 's';
+  else if (seg < 5400) quanto = 'ha ' + Math.round(seg / 60) + ' min';
+  else quanto = 'ha ' + Math.round(seg / 3600) + ' h';
+  updated.textContent = 'Atualizado ' + quanto + ' (' + fmtDate(geradoEm) + ')';
+}
+
+function aplicar(data) {
+  idxAtual = porCategoria(data);
+  geradoEm = data.generated_at || null;
+  var cats = sortedCategories(idxAtual);
   if (!cats.length) {
     catSelect.style.display = 'none';
+    content.innerHTML = '';
     content.appendChild(el('p', 'empty',
       'Nenhum recorde registrado ainda. Corra e volte aqui.'));
   } else {
-    cats.forEach(function (c) {
-      var o = el('option', null, c);
-      o.value = c;
-      catSelect.appendChild(o);
-    });
-    catSelect.addEventListener('change', function () {
-      render(idx, catSelect.value);
-    });
-    render(idx, cats[0]);
+    catSelect.style.display = '';
+    render(idxAtual, preencherSeletor(cats));
   }
-  if (data.generated_at) {
-    updated.textContent = 'Atualizado em ' + fmtDate(data.generated_at);
-  }
+  mostrarQuando();
 }
 
-fetch('records.json?t=' + Date.now())
-  .then(function (r) {
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    return r.json();
-  })
-  .then(boot)
-  .catch(function (e) {
-    content.appendChild(el('p', 'empty',
-      'Nao foi possivel carregar os recordes (' + e.message + ').'));
-  });
+function buscar(primeira) {
+  return fetch('records.json?t=' + Date.now())
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(aplicar)
+    .catch(function (e) {
+      // Falha na RECARGA nao pode apagar o que ja esta na tela — so' a
+      // primeira carga mostra erro.
+      if (primeira) {
+        content.appendChild(el('p', 'empty',
+          'Nao foi possivel carregar os recordes (' + e.message + ').'));
+      }
+    });
+}
+
+catSelect.addEventListener('change', function () {
+  if (idxAtual) render(idxAtual, catSelect.value);
+});
+
+buscar(true);
+setInterval(function () { buscar(false); }, RECARGA_MS);
+// O "atualizado ha X" anda sozinho, mesmo entre as buscas.
+setInterval(mostrarQuando, 1000);

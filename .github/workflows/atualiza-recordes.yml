@@ -12,7 +12,11 @@ name: Atualiza recordes
 
 on:
   schedule:
-    - cron: '*/10 * * * *'    # a cada 10 minutos
+    - cron: '*/5 * * * *'     # 5 min e o MINIMO que o GitHub aceita.
+                              # MEDIDO no repo: ele roda de verdade a
+                              # cada ~38 min (25 a 60) -- workflow
+                              # agendado em repo gratuito e estrangulado.
+                              # Nao adianta pedir menos que isso aqui.
   workflow_dispatch:           # e' o botao "Run workflow" na aba Actions
 
 permissions:
