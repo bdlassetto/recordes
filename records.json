@@ -1,8 +1,28 @@
 {
- "generated_at": "2026-08-21T17:46:46",
+ "generated_at": "2026-08-21T23:50:50",
  "tracks": {
+  "bdl_spid": {
+   "DTA": [
+    {
+     "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-08-21T23:35:48",
+     "pilot": "Silveira #14",
+     "rt": 0.046,
+     "sum": 5.443,
+     "t201": 5.397
+    }
+   ]
+  },
   "bdl_spid_prep201": {
    "DTA": [
+    {
+     "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-08-21T23:46:04",
+     "pilot": "Silveira #14",
+     "rt": 0.022,
+     "sum": 5.381,
+     "t201": 5.36
+    },
     {
      "car": "bdl_gol_bola_gti_cola",
      "date": "2026-08-21T14:27:07",
@@ -10,14 +30,6 @@
      "rt": 0.056,
      "sum": 5.397,
      "t201": 5.341
-    },
-    {
-     "car": "bdl_gol_quadrado_95_dta",
-     "date": "2026-08-21T17:22:08",
-     "pilot": "Silveira #14",
-     "rt": 0.047,
-     "sum": 5.418,
-     "t201": 5.371
     },
     {
      "car": "bdl_gol_bola_adilson_cola",
