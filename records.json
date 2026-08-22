@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T14:41:21",
+ "generated_at": "2026-08-22T18:58:28",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -106,6 +106,14 @@
      "rt": 0.028,
      "sum": 5.644,
      "t201": 5.617
+    },
+    {
+     "car": "bdl_gol_bola_adilson_cola",
+     "date": "2026-08-22T18:33:02",
+     "pilot": "jotinha #42",
+     "rt": 0.121,
+     "sum": 5.759,
+     "t201": 5.638
     }
    ]
   }
