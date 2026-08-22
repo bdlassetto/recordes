@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T23:50:50",
+ "generated_at": "2026-08-22T00:02:55",
  "tracks": {
   "bdl_spid": {
    "DTA": [
@@ -16,20 +16,20 @@
   "bdl_spid_prep201": {
    "DTA": [
     {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-08-22T00:01:01",
+     "pilot": "Felps #0265",
+     "rt": 0.016,
+     "sum": 5.34,
+     "t201": 5.324
+    },
+    {
      "car": "bdl_gol_quadrado_95_dta",
      "date": "2026-08-21T23:46:04",
      "pilot": "Silveira #14",
      "rt": 0.022,
      "sum": 5.381,
      "t201": 5.36
-    },
-    {
-     "car": "bdl_gol_bola_gti_cola",
-     "date": "2026-08-21T14:27:07",
-     "pilot": "Felps #0265",
-     "rt": 0.056,
-     "sum": 5.397,
-     "t201": 5.341
     },
     {
      "car": "bdl_gol_bola_adilson_cola",
@@ -46,6 +46,14 @@
      "rt": 0.028,
      "sum": 5.644,
      "t201": 5.617
+    },
+    {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-08-21T23:55:17",
+     "pilot": "Bruno #07",
+     "rt": 0.27,
+     "sum": 6.087,
+     "t201": 5.817
     }
    ]
   }
