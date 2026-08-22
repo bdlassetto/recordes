@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T18:58:28",
+ "generated_at": "2026-08-22T23:40:29",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -18,6 +18,18 @@
      "rt": 0.029,
      "sum": 6.909,
      "t201": 6.88
+    }
+   ]
+  },
+  "bdl_race_valley_prep": {
+   "STT": [
+    {
+     "car": "bdl_caravan_stt",
+     "date": "2026-08-22T23:39:52",
+     "pilot": "CarlosEd",
+     "rt": 0.202,
+     "sum": 9.052,
+     "t201": 8.85
     }
    ]
   },
