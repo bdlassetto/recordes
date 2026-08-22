@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T13:41:41",
+ "generated_at": "2026-08-22T13:57:46",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -12,12 +12,12 @@
      "t201": 6.691
     },
     {
-     "car": "bdl_gol_g4_toyo",
-     "date": "2026-08-22T13:10:20",
+     "car": "bdl_toyo_90_vitin",
+     "date": "2026-08-22T13:55:11",
      "pilot": "marco",
-     "rt": 0.206,
-     "sum": 7.201,
-     "t201": 6.995
+     "rt": 0.029,
+     "sum": 6.909,
+     "t201": 6.88
     }
    ]
   },
