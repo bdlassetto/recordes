@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T00:02:55",
+ "generated_at": "2026-08-22T01:43:44",
  "tracks": {
   "bdl_spid": {
    "DTA": [
@@ -32,6 +32,14 @@
      "t201": 5.36
     },
     {
+     "car": "bdl_gol_bola_gti_cola",
+     "date": "2026-08-22T01:34:36",
+     "pilot": "CarlosEd",
+     "rt": 0.072,
+     "sum": 5.402,
+     "t201": 5.33
+    },
+    {
      "car": "bdl_gol_bola_adilson_cola",
      "date": "2026-08-21T17:06:23",
      "pilot": "marcolla #96",
@@ -40,20 +48,36 @@
      "t201": 5.474
     },
     {
+     "car": "bdl_gol_dta_86",
+     "date": "2026-08-22T00:53:33",
+     "pilot": "marfil",
+     "rt": 0.048,
+     "sum": 5.523,
+     "t201": 5.474
+    },
+    {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-08-22T00:08:13",
+     "pilot": "Bruno #07",
+     "rt": 0.016,
+     "sum": 5.526,
+     "t201": 5.51
+    },
+    {
+     "car": "bdl_dta_rodrigo",
+     "date": "2026-08-22T01:16:07",
+     "pilot": "Player",
+     "rt": 0.012,
+     "sum": 5.526,
+     "t201": 5.514
+    },
+    {
      "car": "bdl_dta_vitin",
      "date": "2026-08-21T09:43:17",
      "pilot": "Alface #22",
      "rt": 0.028,
      "sum": 5.644,
      "t201": 5.617
-    },
-    {
-     "car": "bdl_gol_g4_dta",
-     "date": "2026-08-21T23:55:17",
-     "pilot": "Bruno #07",
-     "rt": 0.27,
-     "sum": 6.087,
-     "t201": 5.817
     }
    ]
   }
