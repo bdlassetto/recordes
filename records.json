@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-22T13:57:46",
+ "generated_at": "2026-08-22T14:16:56",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-08-22T13:35:34",
+     "date": "2026-08-22T13:59:17",
      "pilot": "Bruno #07",
-     "rt": 0.031,
-     "sum": 6.722,
-     "t201": 6.691
+     "rt": 0.026,
+     "sum": 6.691,
+     "t201": 6.665
     },
     {
      "car": "bdl_toyo_90_vitin",
