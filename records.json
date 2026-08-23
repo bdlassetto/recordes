@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T17:27:33",
+ "generated_at": "2026-08-23T19:10:46",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -162,6 +162,14 @@
      "rt": 0.03,
      "sum": 5.568,
      "t201": 5.537
+    },
+    {
+     "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-08-23T19:10:20",
+     "pilot": "TheMonsterBr",
+     "rt": 0.104,
+     "sum": 5.627,
+     "t201": 5.523
     },
     {
      "car": "bdl_fiat_uno_dta_braga",
