@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T23:55:26",
+ "generated_at": "2026-08-23T00:40:16",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -37,19 +37,19 @@
    "STT": [
     {
      "car": "bdl_caravan_stt",
-     "date": "2026-08-22T23:53:29",
+     "date": "2026-08-23T00:25:29",
      "pilot": "CarlosEd",
-     "rt": 0.122,
-     "sum": 6.619,
-     "t201": 6.498
+     "rt": 0.009,
+     "sum": 6.462,
+     "t201": 6.453
     },
     {
      "car": "bdl_opala_stt",
-     "date": "2026-08-22T23:52:46",
+     "date": "2026-08-23T00:21:25",
      "pilot": "TheMonsterBr",
-     "rt": 0.018,
-     "sum": 6.7,
-     "t201": 6.682
+     "rt": 0.064,
+     "sum": 6.559,
+     "t201": 6.495
     }
    ]
   },
@@ -132,6 +132,14 @@
      "t201": 5.514
     },
     {
+     "car": "bdl_fiat_uno_dta_braga",
+     "date": "2026-08-23T00:17:37",
+     "pilot": "jotinha #42",
+     "rt": 0.03,
+     "sum": 5.615,
+     "t201": 5.584
+    },
+    {
      "car": "bdl_dta_vitin",
      "date": "2026-08-21T09:43:17",
      "pilot": "Alface #22",
@@ -140,20 +148,12 @@
      "t201": 5.617
     },
     {
-     "car": "bdl_gol_bola_adilson_cola",
-     "date": "2026-08-22T18:33:02",
-     "pilot": "jotinha #42",
-     "rt": 0.121,
-     "sum": 5.759,
-     "t201": 5.638
-    },
-    {
      "car": "bdl_fiat_uno_dta_braga",
-     "date": "2026-08-22T23:47:00",
+     "date": "2026-08-23T00:34:16",
      "pilot": "Braga #41",
-     "rt": 0.23,
-     "sum": 6.717,
-     "t201": 6.486
+     "rt": 0.233,
+     "sum": 6.2,
+     "t201": 5.967
     }
    ]
   }
