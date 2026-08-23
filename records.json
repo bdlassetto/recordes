@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T02:12:31",
+ "generated_at": "2026-08-23T13:40:32",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -50,6 +50,14 @@
      "rt": 0.009,
      "sum": 6.462,
      "t201": 6.453
+    },
+    {
+     "car": "bdl_caravan_stt",
+     "date": "2026-08-23T13:26:43",
+     "pilot": "Silveira #14",
+     "rt": 0.01,
+     "sum": 6.497,
+     "t201": 6.487
     }
    ]
   },
