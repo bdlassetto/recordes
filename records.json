@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T22:36:23",
+ "generated_at": "2026-08-23T22:53:58",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -164,12 +164,12 @@
      "t201": 5.514
     },
     {
-     "car": "bdl_gol_quadrado_95_dta",
-     "date": "2026-08-23T14:14:54",
+     "car": "bdl_gol_dta",
+     "date": "2026-08-23T22:46:24",
      "pilot": "jotinha #42",
-     "rt": 0.03,
-     "sum": 5.568,
-     "t201": 5.537
+     "rt": 0.031,
+     "sum": 5.526,
+     "t201": 5.495
     },
     {
      "car": "bdl_fiat_uno_dta_braga",
