@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T14:20:13",
+ "generated_at": "2026-08-23T14:44:20",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -140,6 +140,14 @@
      "t201": 5.514
     },
     {
+     "car": "bdl_dta_gol_hulk",
+     "date": "2026-08-23T14:37:51",
+     "pilot": "Alface #22",
+     "rt": 0.047,
+     "sum": 5.529,
+     "t201": 5.482
+    },
+    {
      "car": "bdl_gol_quadrado_95_dta",
      "date": "2026-08-23T14:14:54",
      "pilot": "jotinha #42",
@@ -148,20 +156,12 @@
      "t201": 5.537
     },
     {
-     "car": "bdl_dta_vitin",
-     "date": "2026-08-21T09:43:17",
-     "pilot": "Alface #22",
-     "rt": 0.028,
-     "sum": 5.644,
-     "t201": 5.617
-    },
-    {
      "car": "bdl_fiat_uno_dta_braga",
-     "date": "2026-08-23T00:34:16",
+     "date": "2026-08-23T14:26:00",
      "pilot": "Braga #41",
-     "rt": 0.233,
-     "sum": 6.2,
-     "t201": 5.967
+     "rt": 0.345,
+     "sum": 5.901,
+     "t201": 5.557
     }
    ]
   }
