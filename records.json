@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T19:47:53",
+ "generated_at": "2026-08-23T21:55:45",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -124,20 +124,20 @@
      "t201": 5.445
     },
     {
+     "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-08-23T21:55:23",
+     "pilot": "marcolla #96",
+     "rt": 0.053,
+     "sum": 5.494,
+     "t201": 5.441
+    },
+    {
      "car": "bdl_gol_dta_86",
      "date": "2026-08-22T01:45:25",
      "pilot": "marfil",
      "rt": 0.099,
      "sum": 5.498,
      "t201": 5.4
-    },
-    {
-     "car": "bdl_gol_bola_adilson_cola",
-     "date": "2026-08-21T17:06:23",
-     "pilot": "marcolla #96",
-     "rt": 0.034,
-     "sum": 5.508,
-     "t201": 5.474
     },
     {
      "car": "bdl_gol_quadrado_95_dta",
