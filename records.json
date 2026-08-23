@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T21:55:45",
+ "generated_at": "2026-08-23T22:11:46",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -125,6 +125,14 @@
     },
     {
      "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-08-23T22:00:43",
+     "pilot": "TheMonsterBr",
+     "rt": 0.033,
+     "sum": 5.476,
+     "t201": 5.443
+    },
+    {
+     "car": "bdl_gol_quadrado_95_dta",
      "date": "2026-08-23T21:55:23",
      "pilot": "marcolla #96",
      "rt": 0.053,
@@ -138,14 +146,6 @@
      "rt": 0.099,
      "sum": 5.498,
      "t201": 5.4
-    },
-    {
-     "car": "bdl_gol_quadrado_95_dta",
-     "date": "2026-08-23T19:46:47",
-     "pilot": "TheMonsterBr",
-     "rt": 0.028,
-     "sum": 5.509,
-     "t201": 5.482
     },
     {
      "car": "bdl_gol_g4_bravo",
