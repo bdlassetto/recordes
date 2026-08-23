@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T15:58:00",
+ "generated_at": "2026-08-23T16:20:28",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -50,6 +50,14 @@
      "rt": 0.009,
      "sum": 6.462,
      "t201": 6.453
+    },
+    {
+     "car": "bdl_opala_stt",
+     "date": "2026-08-23T16:15:58",
+     "pilot": "Felps #0265",
+     "rt": 0.063,
+     "sum": 6.495,
+     "t201": 6.431
     },
     {
      "car": "bdl_caravan_stt",
