@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T02:43:06",
+ "generated_at": "2026-08-24T03:38:30",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -180,20 +180,20 @@
      "t201": 5.431
     },
     {
+     "car": "bdl_dta_rodrigo",
+     "date": "2026-08-24T02:59:48",
+     "pilot": "Player",
+     "rt": 0.015,
+     "sum": 5.519,
+     "t201": 5.504
+    },
+    {
      "car": "bdl_gol_g4_bravo",
      "date": "2026-08-22T14:32:00",
      "pilot": "Bruno #07",
      "rt": 0.025,
      "sum": 5.521,
      "t201": 5.496
-    },
-    {
-     "car": "bdl_dta_rodrigo",
-     "date": "2026-08-22T01:16:07",
-     "pilot": "Player",
-     "rt": 0.012,
-     "sum": 5.526,
-     "t201": 5.514
     },
     {
      "car": "bdl_gol_g4_bravo",
