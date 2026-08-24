@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T23:48:41",
+ "generated_at": "2026-08-24T01:27:49",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -78,6 +78,14 @@
      "rt": 0.046,
      "sum": 5.443,
      "t201": 5.397
+    },
+    {
+     "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-08-24T00:56:37",
+     "pilot": "marcolla #96",
+     "rt": 0.01,
+     "sum": 5.483,
+     "t201": 5.473
     }
    ]
   },
@@ -108,6 +116,14 @@
      "t201": 5.357
     },
     {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-08-24T00:19:58",
+     "pilot": "resende",
+     "rt": 0.057,
+     "sum": 5.392,
+     "t201": 5.336
+    },
+    {
      "car": "bdl_gol_bola_gti_cola",
      "date": "2026-08-22T01:34:36",
      "pilot": "CarlosEd",
@@ -132,12 +148,12 @@
      "t201": 5.375
     },
     {
-     "car": "bdl_gol_g4_dta",
-     "date": "2026-08-23T23:38:36",
-     "pilot": "resende",
-     "rt": 0.022,
-     "sum": 5.445,
-     "t201": 5.423
+     "car": "bdl_fiat_uno_dta_braga",
+     "date": "2026-08-24T00:51:59",
+     "pilot": "Braga #41",
+     "rt": 0.164,
+     "sum": 5.47,
+     "t201": 5.306
     },
     {
      "car": "bdl_dta_gol_hulk",
@@ -180,12 +196,12 @@
      "t201": 5.514
     },
     {
-     "car": "bdl_fiat_uno_dta_braga",
-     "date": "2026-08-23T15:46:21",
-     "pilot": "Braga #41",
-     "rt": 0.203,
-     "sum": 5.706,
-     "t201": 5.503
+     "car": "bdl_gol_g4_bravo",
+     "date": "2026-08-24T01:25:54",
+     "pilot": "ByTheusss #27",
+     "rt": 0.184,
+     "sum": 7.274,
+     "t201": 7.09
     }
    ]
   }
