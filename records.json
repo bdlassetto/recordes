@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T16:56:04",
+ "generated_at": "2026-09-23T19:55:02",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -196,6 +196,14 @@
      "t201": 5.445
     },
     {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-09-23T17:12:51",
+     "pilot": "Lara #041",
+     "rt": 0.058,
+     "sum": 5.497,
+     "t201": 5.439
+    },
+    {
      "car": "bdl_gol_dta_86",
      "date": "2026-08-22T01:45:25",
      "pilot": "marfil",
@@ -228,14 +236,6 @@
      "t201": 5.496
     },
     {
-     "car": "bdl_gol_g4_dta",
-     "date": "2026-09-23T16:53:54",
-     "pilot": "Lara #041",
-     "rt": 0.053,
-     "sum": 5.568,
-     "t201": 5.515
-    },
-    {
      "car": "bdl_gol_g4_bravo",
      "date": "2026-08-24T01:51:11",
      "pilot": "ByTheusss #27",
@@ -260,12 +260,12 @@
      "t201": 5.584
     },
     {
-     "car": "bdl_voyage_dta_sulask",
-     "date": "2026-09-23T16:52:05",
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-09-23T17:37:55",
      "pilot": "vinidanaja",
-     "rt": 0.523,
-     "sum": 6.319,
-     "t201": 5.796
+     "rt": 0.038,
+     "sum": 6.041,
+     "t201": 6.003
     },
     {
      "car": "bdl_fiat_uno_dta_braga",
@@ -274,6 +274,26 @@
      "rt": 0.1,
      "sum": 6.815,
      "t201": 6.715
+    }
+   ]
+  },
+  "bdl_velopark_dragbdlnoprepclassic": {
+   "LISTA": [
+    {
+     "car": "bdl_cayman_vini",
+     "date": "2026-09-23T18:44:39",
+     "pilot": "Lara #041",
+     "rt": 0.116,
+     "sum": 4.203,
+     "t201": 4.087
+    },
+    {
+     "car": "bdl_voyage_4x4_sulask",
+     "date": "2026-09-23T19:34:07",
+     "pilot": "vinidanaja",
+     "rt": 0.053,
+     "sum": 4.664,
+     "t201": 4.611
     }
    ]
   }
