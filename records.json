@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T15:20:49",
+ "generated_at": "2026-09-30T20:07:34",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -312,12 +312,12 @@
      "t201": 4.087
     },
     {
-     "car": "bdl_voyage_4x4_sulask",
-     "date": "2026-09-23T19:34:07",
+     "car": "bdl_gol_g4_awd_soprani",
+     "date": "2026-09-30T16:31:55",
      "pilot": "vinidanaja",
-     "rt": 0.053,
-     "sum": 4.664,
-     "t201": 4.611
+     "rt": 0.144,
+     "sum": 4.484,
+     "t201": 4.34
     }
    ]
   }
