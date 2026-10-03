@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T18:21:21",
+ "generated_at": "2026-10-03T23:57:37",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -165,11 +165,11 @@
     },
     {
      "car": "bdl_gol_g4_dta",
-     "date": "2026-08-24T00:19:58",
+     "date": "2026-10-03T22:47:29",
      "pilot": "resende",
-     "rt": 0.057,
-     "sum": 5.392,
-     "t201": 5.336
+     "rt": 0.029,
+     "sum": 5.387,
+     "t201": 5.358
     },
     {
      "car": "bdl_gol_bola_gti_cola",
