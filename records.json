@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T20:07:34",
+ "generated_at": "2026-10-03T18:21:21",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -82,6 +82,14 @@
      "rt": 0.034,
      "sum": 6.49,
      "t201": 6.456
+    },
+    {
+     "car": "bdl_caravan_stt",
+     "date": "2026-10-03T16:45:13",
+     "pilot": "Silveira",
+     "rt": 0.088,
+     "sum": 6.619,
+     "t201": 6.531
     },
     {
      "car": "bdl_caravan_stt",
@@ -194,6 +202,14 @@
      "rt": 0.022,
      "sum": 5.45,
      "t201": 5.428
+    },
+    {
+     "car": "bdl_gol_g4_wesley",
+     "date": "2026-10-03T17:47:51",
+     "pilot": "RIBEIRO-VIRTUALGARAGE #222",
+     "rt": 0.012,
+     "sum": 5.464,
+     "t201": 5.451
     },
     {
      "car": "bdl_fiat_uno_dta_braga",
