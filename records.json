@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T07:15:30",
+ "generated_at": "2026-10-11T21:48:40",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -306,6 +306,22 @@
      "rt": 0.062,
      "sum": 5.647,
      "t201": 5.584
+    },
+    {
+     "car": "bdl_gol_g4_wesley",
+     "date": "2026-10-11T19:53:55",
+     "pilot": "Adrianxs",
+     "rt": 0.039,
+     "sum": 5.941,
+     "t201": 5.902
+    },
+    {
+     "car": "bdl_dta_rodrigo",
+     "date": "2026-10-11T19:31:16",
+     "pilot": "PORQUE",
+     "rt": 0.27,
+     "sum": 5.986,
+     "t201": 5.716
     },
     {
      "car": "bdl_gol_g4_dta",
