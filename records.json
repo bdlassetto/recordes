@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T05:51:43",
+ "generated_at": "2026-10-24T23:37:36",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -10,6 +10,14 @@
      "rt": 0.128,
      "sum": 6.63,
      "t201": 6.502
+    },
+    {
+     "car": "bdl_opala_stt",
+     "date": "2026-10-24T23:08:03",
+     "pilot": "Bernardi",
+     "rt": 0.403,
+     "sum": 7.298,
+     "t201": 6.895
     }
    ]
   },
@@ -84,6 +92,14 @@
      "t201": 6.456
     },
     {
+     "car": "bdl_opala_stt",
+     "date": "2026-10-24T23:31:45",
+     "pilot": "guedes",
+     "rt": 0.049,
+     "sum": 6.554,
+     "t201": 6.505
+    },
+    {
      "car": "bdl_caravan_stt",
      "date": "2026-10-03T16:45:13",
      "pilot": "Silveira",
@@ -114,6 +130,14 @@
      "rt": 0.041,
      "sum": 6.878,
      "t201": 6.837
+    },
+    {
+     "car": "bdl_opala_stt",
+     "date": "2026-10-24T23:13:42",
+     "pilot": "Bernardi",
+     "rt": 0.18,
+     "sum": 6.994,
+     "t201": 6.814
     },
     {
      "car": "bdl_caravan_stt",
