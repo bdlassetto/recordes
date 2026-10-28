@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T23:37:36",
+ "generated_at": "2026-10-28T01:26:09",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -390,6 +390,14 @@
      "rt": 0.144,
      "sum": 4.484,
      "t201": 4.34
+    },
+    {
+     "car": "bdl_gol_g4_alfacebrutal_4x4",
+     "date": "2026-10-28T00:42:58",
+     "pilot": "Alface #22",
+     "rt": 0.081,
+     "sum": 7.671,
+     "t201": 7.59
     }
    ]
   }
