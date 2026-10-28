@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:51:48",
+ "generated_at": "2026-10-28T23:08:26",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -316,6 +316,14 @@
      "t201": 5.496
     },
     {
+     "car": "bdl_fiat_uno_dta_braga",
+     "date": "2026-10-28T22:00:00",
+     "pilot": "guedes",
+     "rt": 0.067,
+     "sum": 5.589,
+     "t201": 5.522
+    },
+    {
      "car": "bdl_gol_g4_bravo",
      "date": "2026-08-24T01:51:11",
      "pilot": "ByTheusss #27",
@@ -330,14 +338,6 @@
      "rt": 0.094,
      "sum": 5.622,
      "t201": 5.528
-    },
-    {
-     "car": "bdl_gol_g4_wesley",
-     "date": "2026-10-28T13:04:58",
-     "pilot": "guedes",
-     "rt": 0.04,
-     "sum": 5.629,
-     "t201": 5.59
     },
     {
      "car": "bdl_gol_g4_bravo",
