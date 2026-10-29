@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T23:08:26",
+ "generated_at": "2026-10-29T02:22:25",
  "tracks": {
   "bdl_race_valley": {
    "STT": [
@@ -154,6 +154,14 @@
      "rt": 0.269,
      "sum": 7.103,
      "t201": 6.835
+    },
+    {
+     "car": "bdl_caravan_stt_braga",
+     "date": "2026-10-29T00:03:04",
+     "pilot": "Melo",
+     "rt": 0.232,
+     "sum": 7.25,
+     "t201": 7.018
     }
    ]
   },
