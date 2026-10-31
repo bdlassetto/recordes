@@ -1,4 +1,45 @@
 {
- "generated_at": "2026-10-30T05:35:39",
- "tracks": {}
+ "generated_at": "2026-10-31T00:54:59",
+ "tracks": {
+  "bdl_spid_prep201": {
+   "DTA": [
+    {
+     "car": "bdl_gol_g4_bravo",
+     "date": "2026-10-31T00:15:08",
+     "pilot": "Bruno #07",
+     "rt": 0.039,
+     "sum": 5.553,
+     "t201": 5.513
+    },
+    {
+     "car": "bdl_gol_g4_wesley",
+     "date": "2026-10-31T00:24:08",
+     "pilot": "guedes",
+     "rt": 0.072,
+     "sum": 5.605,
+     "t201": 5.533
+    },
+    {
+     "car": "bdl_fiat_uno_dta_braga",
+     "date": "2026-10-30T21:36:48",
+     "pilot": "Melo",
+     "rt": 0.175,
+     "sum": 8.982,
+     "t201": 8.807
+    }
+   ]
+  },
+  "bdl_velopark_dragbdlnoprepclassic": {
+   "LISTA": [
+    {
+     "car": "bdl_opala_bs",
+     "date": "2026-10-31T00:50:27",
+     "pilot": "Melo",
+     "rt": 0.195,
+     "sum": 4.952,
+     "t201": 4.756
+    }
+   ]
+  }
+ }
 }
