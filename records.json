@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-10-31T06:25:18",
+ "generated_at": "2026-11-01T02:30:18",
  "tracks": {
   "bdl_spid_prep201": {
    "DTA": [
+    {
+     "car": "bdl_gol_g4_bravo",
+     "date": "2026-11-01T01:02:27",
+     "pilot": "guedes",
+     "rt": 0.049,
+     "sum": 5.528,
+     "t201": 5.479
+    },
     {
      "car": "bdl_gol_g4_bravo",
      "date": "2026-10-31T00:15:08",
@@ -10,14 +18,6 @@
      "rt": 0.039,
      "sum": 5.553,
      "t201": 5.513
-    },
-    {
-     "car": "bdl_gol_g4_wesley",
-     "date": "2026-10-31T00:24:08",
-     "pilot": "guedes",
-     "rt": 0.072,
-     "sum": 5.605,
-     "t201": 5.533
     },
     {
      "car": "bdl_fiat_uno_dta_braga",
