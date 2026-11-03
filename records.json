@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-11-01T09:32:51",
+ "generated_at": "2026-11-03T02:02:16",
  "tracks": {
   "bdl_spid_prep201": {
    "DTA": [
+    {
+     "car": "bdl_gol_bola_48",
+     "date": "2026-11-02T22:42:09",
+     "pilot": "marcolla #96",
+     "rt": 0.029,
+     "sum": 5.465,
+     "t201": 5.436
+    },
     {
      "car": "bdl_gol_bola_48",
      "date": "2026-11-01T05:16:43",
@@ -26,6 +34,14 @@
      "rt": 0.039,
      "sum": 5.553,
      "t201": 5.513
+    },
+    {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-03T01:14:00",
+     "pilot": "MIngas",
+     "rt": 0.027,
+     "sum": 5.654,
+     "t201": 5.627
     },
     {
      "car": "bdl_fiat_uno_dta_braga",
