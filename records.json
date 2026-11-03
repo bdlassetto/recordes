@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T09:23:17",
+ "generated_at": "2026-11-03T17:10:31",
  "tracks": {
   "bdl_spid_prep201": {
    "DTA": [
@@ -58,6 +58,14 @@
      "rt": 0.175,
      "sum": 8.982,
      "t201": 8.807
+    },
+    {
+     "car": "bdl_dta_rodrigo",
+     "date": "2026-11-03T14:00:24",
+     "pilot": "Pivass",
+     "rt": 1.868,
+     "sum": 10.191,
+     "t201": 8.324
     },
     {
      "car": "bdl_dta_rodrigo",
