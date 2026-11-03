@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-11-03T02:02:16",
+ "generated_at": "2026-11-03T09:23:17",
  "tracks": {
   "bdl_spid_prep201": {
    "DTA": [
+    {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-03T06:42:51",
+     "pilot": "cipullinha",
+     "rt": 0.015,
+     "sum": 5.456,
+     "t201": 5.442
+    },
     {
      "car": "bdl_gol_bola_48",
      "date": "2026-11-02T22:42:09",
@@ -10,14 +18,6 @@
      "rt": 0.029,
      "sum": 5.465,
      "t201": 5.436
-    },
-    {
-     "car": "bdl_gol_bola_48",
-     "date": "2026-11-01T05:16:43",
-     "pilot": "cipullinha",
-     "rt": 0.037,
-     "sum": 5.512,
-     "t201": 5.475
     },
     {
      "car": "bdl_gol_g4_bravo",
@@ -42,6 +42,14 @@
      "rt": 0.027,
      "sum": 5.654,
      "t201": 5.627
+    },
+    {
+     "car": "bdl_saveiro_95_coyote_dta",
+     "date": "2026-11-03T02:16:55",
+     "pilot": "RIBEIRO #222",
+     "rt": 1.002,
+     "sum": 6.482,
+     "t201": 5.48
     },
     {
      "car": "bdl_fiat_uno_dta_braga",
