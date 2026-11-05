@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T02:22:21",
+ "generated_at": "2026-11-05T02:47:43",
  "tracks": {
   "bdl_spid_prep201": {
    "DTA": [
@@ -42,6 +42,14 @@
      "rt": 0.039,
      "sum": 5.553,
      "t201": 5.513
+    },
+    {
+     "car": "bdl_fiat_uno_dta_braga",
+     "date": "2026-11-05T00:13:23",
+     "pilot": "Felps #0265",
+     "rt": 0.105,
+     "sum": 5.612,
+     "t201": 5.508
     },
     {
      "car": "bdl_saveiro_95_coyote_dta",
@@ -88,20 +96,20 @@
      "t201": 4.102
     },
     {
-     "car": "bdl_caravan_braga",
-     "date": "2026-10-31T02:02:09",
-     "pilot": "Felps #0265",
-     "rt": 0.091,
-     "sum": 4.807,
-     "t201": 4.716
+     "car": "bdl_cayman_vini",
+     "date": "2026-11-05T01:10:34",
+     "pilot": "Lara #041",
+     "rt": 0.119,
+     "sum": 4.269,
+     "t201": 4.151
     },
     {
-     "car": "bdl_cayman_vini",
-     "date": "2026-10-31T02:22:13",
-     "pilot": "Lara #041",
-     "rt": 0.179,
-     "sum": 4.977,
-     "t201": 4.798
+     "car": "bdl_opala_bs",
+     "date": "2026-11-05T01:51:17",
+     "pilot": "Felps #0265",
+     "rt": 0.049,
+     "sum": 4.508,
+     "t201": 4.459
     },
     {
      "car": "bdl_opala_bs",
