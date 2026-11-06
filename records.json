@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T02:47:43",
+ "generated_at": "2026-11-06T02:52:46",
  "tracks": {
   "bdl_spid_prep201": {
    "DTA": [
@@ -50,6 +50,14 @@
      "rt": 0.105,
      "sum": 5.612,
      "t201": 5.508
+    },
+    {
+     "car": "bdl_saveiro_95_coyote_dta",
+     "date": "2026-11-06T02:18:39",
+     "pilot": "jotinha #42",
+     "rt": 0.112,
+     "sum": 5.776,
+     "t201": 5.664
     },
     {
      "car": "bdl_saveiro_95_coyote_dta",
