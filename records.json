@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T18:53:14",
+ "generated_at": "2026-11-07T22:22:25",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -20,12 +20,12 @@
      "t201": 6.635
     },
     {
-     "car": "bdl_gol_g4_toyo",
-     "date": "2026-11-07T05:26:06",
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-07T22:19:29",
      "pilot": "cipullinha",
-     "rt": 0.003,
-     "sum": 6.701,
-     "t201": 6.697
+     "rt": 0.018,
+     "sum": 6.662,
+     "t201": 6.644
     },
     {
      "car": "bdl_gol_quadrado",
@@ -96,6 +96,14 @@
      "t201": 5.664
     },
     {
+     "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-11-07T21:22:03",
+     "pilot": "Nunes",
+     "rt": 0.251,
+     "sum": 5.956,
+     "t201": 5.704
+    },
+    {
      "car": "bdl_saveiro_95_coyote_dta",
      "date": "2026-11-03T02:16:55",
      "pilot": "RIBEIRO #222",
@@ -162,6 +170,14 @@
      "rt": 0.051,
      "sum": 4.563,
      "t201": 4.512
+    },
+    {
+     "car": "bdl_f1000_bittencourt",
+     "date": "2026-11-07T21:05:03",
+     "pilot": "Nunes",
+     "rt": 0.162,
+     "sum": 4.862,
+     "t201": 4.7
     },
     {
      "car": "bdl_opala_bs",
