@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-06T02:52:46",
+ "generated_at": "2026-11-07T07:47:53",
  "tracks": {
+  "bdl_race_valley_noprep": {
+   "TOYO": [
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-07T03:00:25",
+     "pilot": "Pivass",
+     "rt": 0.023,
+     "sum": 6.634,
+     "t201": 6.611
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-07T05:26:06",
+     "pilot": "cipullinha",
+     "rt": 0.003,
+     "sum": 6.701,
+     "t201": 6.697
+    },
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-07T03:15:53",
+     "pilot": "Volks",
+     "rt": 0.017,
+     "sum": 6.719,
+     "t201": 6.702
+    },
+    {
+     "car": "bdl_gol_quadrado",
+     "date": "2026-11-07T03:02:35",
+     "pilot": "James",
+     "rt": 0.026,
+     "sum": 6.828,
+     "t201": 6.802
+    }
+   ]
+  },
   "bdl_spid_prep201": {
    "DTA": [
     {
@@ -120,6 +156,14 @@
      "t201": 4.459
     },
     {
+     "car": "bdl_chevette_fibra_carbono",
+     "date": "2026-11-07T04:08:49",
+     "pilot": "Pivass",
+     "rt": 0.051,
+     "sum": 4.563,
+     "t201": 4.512
+    },
+    {
      "car": "bdl_opala_bs",
      "date": "2026-10-31T01:38:52",
      "pilot": "guedes",
@@ -128,12 +172,28 @@
      "t201": 5.304
     },
     {
+     "car": "bdl_opala_bs",
+     "date": "2026-11-07T04:03:46",
+     "pilot": "Volks",
+     "rt": 0.216,
+     "sum": 6.723,
+     "t201": 6.507
+    },
+    {
      "car": "gol_4x4_470",
      "date": "2026-10-31T02:04:30",
      "pilot": "Bernardi",
      "rt": 3.728,
      "sum": 8.228,
      "t201": 4.5
+    },
+    {
+     "car": "g76_vw_gol_pajaro",
+     "date": "2026-11-07T03:59:52",
+     "pilot": "cipullinha",
+     "rt": 14.011,
+     "sum": 19.234,
+     "t201": 5.224
     }
    ]
   }
