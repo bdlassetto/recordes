@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T07:51:26",
+ "generated_at": "2026-11-08T19:01:10",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -34,6 +34,14 @@
      "rt": 0.026,
      "sum": 6.828,
      "t201": 6.802
+    },
+    {
+     "car": "bdl_saveiro_95_toyo_coyote",
+     "date": "2026-11-08T18:50:26",
+     "pilot": "WandimBR",
+     "rt": 0.07,
+     "sum": 7.402,
+     "t201": 7.332
     }
    ]
   },
