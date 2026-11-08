@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T22:22:25",
+ "generated_at": "2026-11-08T01:31:41",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -102,6 +102,14 @@
      "rt": 0.251,
      "sum": 5.956,
      "t201": 5.704
+    },
+    {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-07T23:38:24",
+     "pilot": "CARDOSO",
+     "rt": 0.045,
+     "sum": 6.026,
+     "t201": 5.981
     },
     {
      "car": "bdl_saveiro_95_coyote_dta",
