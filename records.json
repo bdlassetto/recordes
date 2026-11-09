@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T22:43:03",
+ "generated_at": "2026-11-09T01:58:29",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -70,6 +70,14 @@
      "rt": 0.016,
      "sum": 5.516,
      "t201": 5.5
+    },
+    {
+     "car": "bdl_voyage_dta_sulask",
+     "date": "2026-11-08T23:01:28",
+     "pilot": "Nicolas #2626",
+     "rt": 0.069,
+     "sum": 5.539,
+     "t201": 5.471
     },
     {
      "car": "bdl_gol_bola_48",
@@ -242,6 +250,14 @@
      "rt": 14.011,
      "sum": 19.234,
      "t201": 5.224
+    },
+    {
+     "car": "bdl_chevette_fibra_miguel",
+     "date": "2026-11-09T00:40:51",
+     "pilot": "Pedro",
+     "rt": 14.351,
+     "sum": 20.439,
+     "t201": 6.088
     }
    ]
   }
