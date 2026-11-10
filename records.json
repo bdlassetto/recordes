@@ -1,8 +1,24 @@
 {
- "generated_at": "2026-11-10T10:05:22",
+ "generated_at": "2026-11-10T22:31:03",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-10T22:00:14",
+     "pilot": "James",
+     "rt": 0.0,
+     "sum": 6.585,
+     "t201": 6.585
+    },
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-10T22:30:15",
+     "pilot": "cipullinha",
+     "rt": 0.022,
+     "sum": 6.628,
+     "t201": 6.606
+    },
     {
      "car": "bdl_gol_g4_toyo",
      "date": "2026-11-07T03:00:25",
@@ -13,14 +29,6 @@
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-08T04:20:35",
-     "pilot": "cipullinha",
-     "rt": 0.012,
-     "sum": 6.654,
-     "t201": 6.642
-    },
-    {
-     "car": "bdl_gol_bola_gti_toyo",
      "date": "2026-11-07T18:08:27",
      "pilot": "Volks",
      "rt": 0.025,
@@ -28,12 +36,20 @@
      "t201": 6.635
     },
     {
-     "car": "bdl_gol_quadrado",
-     "date": "2026-11-07T03:02:35",
-     "pilot": "James",
-     "rt": 0.026,
-     "sum": 6.828,
-     "t201": 6.802
+     "car": "bdl_gol_g4_toyo_endrews",
+     "date": "2026-11-10T21:35:46",
+     "pilot": "Endrews #85",
+     "rt": 0.005,
+     "sum": 6.673,
+     "t201": 6.668
+    },
+    {
+     "car": "bdl_gol_quadrado_95",
+     "date": "2026-11-10T21:35:46",
+     "pilot": "Silveira",
+     "rt": 0.015,
+     "sum": 6.75,
+     "t201": 6.735
     },
     {
      "car": "bdl_saveiro_95_toyo_coyote",
@@ -42,6 +58,22 @@
      "rt": 0.07,
      "sum": 7.402,
      "t201": 7.332
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-10T22:29:35",
+     "pilot": "RIBEIRO #222",
+     "rt": 0.009,
+     "sum": 9.611,
+     "t201": 9.602
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-10T22:12:46",
+     "pilot": "Pedra",
+     "rt": 0.254,
+     "sum": 9.775,
+     "t201": 9.522
     }
    ]
   },
