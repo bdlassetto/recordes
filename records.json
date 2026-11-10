@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T01:58:29",
+ "generated_at": "2026-11-10T02:23:54",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -188,6 +188,14 @@
      "t201": 4.151
     },
     {
+     "car": "bdl_rx8_4rotor_lm",
+     "date": "2026-11-10T02:11:01",
+     "pilot": "Bruno #07",
+     "rt": 0.026,
+     "sum": 4.452,
+     "t201": 4.426
+    },
+    {
      "car": "bdl_opala_bs",
      "date": "2026-11-05T01:51:17",
      "pilot": "Felps #0265",
@@ -204,20 +212,28 @@
      "t201": 4.512
     },
     {
+     "car": "bdl_gol_bola_rodrigo_4x4",
+     "date": "2026-11-10T01:40:50",
+     "pilot": "Pedra",
+     "rt": 0.234,
+     "sum": 4.606,
+     "t201": 4.372
+    },
+    {
+     "car": "rx8_drag",
+     "date": "2026-11-10T02:08:09",
+     "pilot": "WandimBR",
+     "rt": 0.012,
+     "sum": 4.627,
+     "t201": 4.615
+    },
+    {
      "car": "bdl_f1000_bittencourt",
      "date": "2026-11-07T21:05:03",
      "pilot": "Nunes",
      "rt": 0.162,
      "sum": 4.862,
      "t201": 4.7
-    },
-    {
-     "car": "g76_chevrolet_nova_lista_076",
-     "date": "2026-11-08T21:56:18",
-     "pilot": "WandimBR",
-     "rt": 0.058,
-     "sum": 5.332,
-     "t201": 5.274
     },
     {
      "car": "bdl_opala_bs",
