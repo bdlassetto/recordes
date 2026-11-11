@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T22:31:03",
+ "generated_at": "2026-11-11T02:07:38",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -13,11 +13,11 @@
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-10T22:30:15",
+     "date": "2026-11-10T23:32:34",
      "pilot": "cipullinha",
-     "rt": 0.022,
-     "sum": 6.628,
-     "t201": 6.606
+     "rt": 0.005,
+     "sum": 6.613,
+     "t201": 6.607
     },
     {
      "car": "bdl_gol_g4_toyo",
@@ -96,20 +96,20 @@
      "t201": 5.436
     },
     {
+     "car": "bdl_voyage_dta_sulask",
+     "date": "2026-11-11T00:40:47",
+     "pilot": "Nicolas #2626",
+     "rt": 0.001,
+     "sum": 5.482,
+     "t201": 5.482
+    },
+    {
      "car": "bdl_fiat_uno_dta_braga",
      "date": "2026-11-08T19:36:28",
      "pilot": "guedes",
      "rt": 0.016,
      "sum": 5.516,
      "t201": 5.5
-    },
-    {
-     "car": "bdl_voyage_dta_sulask",
-     "date": "2026-11-08T23:01:28",
-     "pilot": "Nicolas #2626",
-     "rt": 0.069,
-     "sum": 5.539,
-     "t201": 5.471
     },
     {
      "car": "bdl_gol_bola_48",
@@ -274,6 +274,14 @@
      "rt": 0.476,
      "sum": 5.78,
      "t201": 5.304
+    },
+    {
+     "car": "bdl_gol_g4_awd_soprani",
+     "date": "2026-11-10T23:52:32",
+     "pilot": "Silveira",
+     "rt": 0.001,
+     "sum": 6.137,
+     "t201": 6.136
     },
     {
      "car": "bdl_opala_bs",
