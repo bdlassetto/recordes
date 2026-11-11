@@ -1,4 +1,17 @@
 {
- "generated_at": "2026-11-11T09:15:49",
- "tracks": {}
+ "generated_at": "2026-11-11T17:09:39",
+ "tracks": {
+  "bdl_race_valley_noprep": {
+   "TOYO": [
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-11T14:33:03",
+     "pilot": "cipullinha",
+     "rt": 0.01,
+     "sum": 6.618,
+     "t201": 6.608
+    }
+   ]
+  }
+ }
 }
