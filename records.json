@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T03:58:23",
+ "generated_at": "2026-11-12T19:51:29",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -12,12 +12,20 @@
      "t201": 6.607
     },
     {
+     "car": "bdl_gol_g4_toyo_endrews",
+     "date": "2026-11-12T19:05:51",
+     "pilot": "Endrews #85",
+     "rt": 0.013,
+     "sum": 6.661,
+     "t201": 6.648
+    },
+    {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-11T21:51:18",
+     "date": "2026-11-12T13:36:45",
      "pilot": "James",
-     "rt": 0.01,
-     "sum": 6.696,
-     "t201": 6.686
+     "rt": 0.003,
+     "sum": 6.695,
+     "t201": 6.692
     },
     {
      "car": "bdl_gol_g4_toyo",
@@ -26,6 +34,14 @@
      "rt": 0.004,
      "sum": 6.745,
      "t201": 6.741
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-12T15:29:31",
+     "pilot": "resende",
+     "rt": 0.089,
+     "sum": 6.87,
+     "t201": 6.781
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
@@ -39,6 +55,14 @@
   },
   "bdl_spid_prep201": {
    "DTA": [
+    {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-12T15:37:10",
+     "pilot": "resende",
+     "rt": 0.275,
+     "sum": 5.739,
+     "t201": 5.464
+    },
     {
      "car": "bdl_gol_bola_gti_cola",
      "date": "2026-11-11T23:57:45",
