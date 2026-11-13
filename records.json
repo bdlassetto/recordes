@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T07:18:57",
+ "generated_at": "2026-11-13T15:28:44",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -89,11 +89,19 @@
    "DTA": [
     {
      "car": "bdl_fiat_uno_dta_braga",
-     "date": "2026-11-13T03:37:47",
+     "date": "2026-11-13T15:11:19",
      "pilot": "Felps #0265",
-     "rt": 0.018,
-     "sum": 5.335,
-     "t201": 5.317
+     "rt": 0.002,
+     "sum": 5.313,
+     "t201": 5.31
+    },
+    {
+     "car": "bdl_gol_g4_dta_endrews",
+     "date": "2026-11-13T14:19:54",
+     "pilot": "Endrews #85",
+     "rt": 0.005,
+     "sum": 5.381,
+     "t201": 5.376
     },
     {
      "car": "bdl_fiat_uno_dta_braga",
