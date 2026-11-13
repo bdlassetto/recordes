@@ -1,15 +1,23 @@
 {
- "generated_at": "2026-11-13T00:43:38",
+ "generated_at": "2026-11-13T07:18:57",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-12T20:38:45",
+     "date": "2026-11-13T04:10:22",
      "pilot": "cipullinha",
-     "rt": 0.005,
-     "sum": 6.612,
-     "t201": 6.607
+     "rt": 0.019,
+     "sum": 6.6,
+     "t201": 6.58
+    },
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-13T02:02:12",
+     "pilot": "Felps #0265",
+     "rt": 0.002,
+     "sum": 6.611,
+     "t201": 6.609
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
@@ -28,6 +36,14 @@
      "t201": 6.648
     },
     {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-13T03:08:29",
+     "pilot": "WandimBR",
+     "rt": 0.03,
+     "sum": 6.712,
+     "t201": 6.682
+    },
+    {
      "car": "bdl_gol_g4_toyo",
      "date": "2026-11-11T20:33:49",
      "pilot": "danilotorezani",
@@ -36,12 +52,12 @@
      "t201": 6.741
     },
     {
-     "car": "bdl_gol_ls",
-     "date": "2026-11-12T23:48:37",
-     "pilot": "WandimBR",
-     "rt": 0.035,
-     "sum": 6.86,
-     "t201": 6.825
+     "car": "bdl_toyo_90_vitin",
+     "date": "2026-11-13T03:09:22",
+     "pilot": "Pedra",
+     "rt": 0.038,
+     "sum": 6.774,
+     "t201": 6.736
     },
     {
      "car": "bdl_gol_g4_toyo",
@@ -52,14 +68,6 @@
      "t201": 6.781
     },
     {
-     "car": "bdl_gol_ls",
-     "date": "2026-11-12T23:39:42",
-     "pilot": "Pedra",
-     "rt": 0.103,
-     "sum": 6.88,
-     "t201": 6.777
-    },
-    {
      "car": "bdl_gol_g4_toyo_endrews",
      "date": "2026-11-12T20:58:30",
      "pilot": "MIngas",
@@ -68,17 +76,33 @@
      "t201": 7.033
     },
     {
-     "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-11T22:23:39",
-     "pilot": "Felps #0265",
-     "rt": 0.062,
-     "sum": 7.869,
-     "t201": 7.807
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-13T04:48:25",
+     "pilot": "xburguer",
+     "rt": 0.588,
+     "sum": 8.47,
+     "t201": 7.882
     }
    ]
   },
   "bdl_spid_prep201": {
    "DTA": [
+    {
+     "car": "bdl_fiat_uno_dta_braga",
+     "date": "2026-11-13T03:37:47",
+     "pilot": "Felps #0265",
+     "rt": 0.018,
+     "sum": 5.335,
+     "t201": 5.317
+    },
+    {
+     "car": "bdl_fiat_uno_dta_braga",
+     "date": "2026-11-13T03:48:05",
+     "pilot": "WandimBR",
+     "rt": 0.015,
+     "sum": 5.498,
+     "t201": 5.483
+    },
     {
      "car": "bdl_gol_g4_dta",
      "date": "2026-11-12T15:37:10",
@@ -86,6 +110,14 @@
      "rt": 0.275,
      "sum": 5.739,
      "t201": 5.464
+    },
+    {
+     "car": "bdl_gol_bola_gti_cola",
+     "date": "2026-11-13T03:45:52",
+     "pilot": "Pedra",
+     "rt": 0.235,
+     "sum": 5.748,
+     "t201": 5.513
     },
     {
      "car": "bdl_gol_bola_gti_cola",
@@ -102,14 +134,6 @@
      "rt": 0.496,
      "sum": 5.962,
      "t201": 5.466
-    },
-    {
-     "car": "bdl_gol_g4_bravo",
-     "date": "2026-11-12T00:31:16",
-     "pilot": "Pedra",
-     "rt": 0.218,
-     "sum": 6.174,
-     "t201": 5.956
     }
    ]
   }
