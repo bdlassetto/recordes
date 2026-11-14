@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T14:44:24",
+ "generated_at": "2026-11-14T19:29:18",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -118,6 +118,14 @@
      "rt": 0.015,
      "sum": 5.498,
      "t201": 5.483
+    },
+    {
+     "car": "bdl_gol_g4_bravo",
+     "date": "2026-11-14T16:47:02",
+     "pilot": "Bruno #07",
+     "rt": 0.034,
+     "sum": 5.564,
+     "t201": 5.53
     },
     {
      "car": "bdl_gol_g4_dta",
