@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T23:14:32",
+ "generated_at": "2026-11-15T02:39:21",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -50,6 +50,14 @@
      "rt": 0.002,
      "sum": 6.664,
      "t201": 6.662
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-14T23:48:22",
+     "pilot": "/",
+     "rt": 0.157,
+     "sum": 6.716,
+     "t201": 6.559
     },
     {
      "car": "bdl_toyo_90_vitin",
@@ -126,6 +134,14 @@
      "rt": 0.034,
      "sum": 5.564,
      "t201": 5.53
+    },
+    {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-15T02:35:24",
+     "pilot": "TheMonsterBr",
+     "rt": 0.189,
+     "sum": 5.589,
+     "t201": 5.401
     },
     {
      "car": "bdl_gol_g4_dta",
