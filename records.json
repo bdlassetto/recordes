@@ -1,23 +1,23 @@
 {
- "generated_at": "2026-11-15T02:39:21",
+ "generated_at": "2026-11-15T09:52:47",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-13T04:10:22",
+     "date": "2026-11-15T09:46:22",
      "pilot": "cipullinha",
-     "rt": 0.019,
-     "sum": 6.6,
-     "t201": 6.58
+     "rt": 0.016,
+     "sum": 6.59,
+     "t201": 6.573
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-13T02:02:12",
+     "date": "2026-11-15T05:14:06",
      "pilot": "Felps #0265",
      "rt": 0.002,
-     "sum": 6.611,
-     "t201": 6.609
+     "sum": 6.597,
+     "t201": 6.595
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
@@ -52,6 +52,14 @@
      "t201": 6.662
     },
     {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-15T07:22:17",
+     "pilot": "xburguer",
+     "rt": 0.005,
+     "sum": 6.667,
+     "t201": 6.662
+    },
+    {
      "car": "bdl_gol_g4_toyo",
      "date": "2026-11-14T23:48:22",
      "pilot": "/",
@@ -82,14 +90,6 @@
      "rt": 0.061,
      "sum": 7.094,
      "t201": 7.033
-    },
-    {
-     "car": "bdl_gol_g4_toyo",
-     "date": "2026-11-13T04:48:25",
-     "pilot": "xburguer",
-     "rt": 0.588,
-     "sum": 8.47,
-     "t201": 7.882
     }
    ]
   },
@@ -120,6 +120,14 @@
      "t201": 5.437
     },
     {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-15T03:14:20",
+     "pilot": "TheMonsterBr",
+     "rt": 0.046,
+     "sum": 5.473,
+     "t201": 5.427
+    },
+    {
      "car": "bdl_fiat_uno_dta_braga",
      "date": "2026-11-13T03:48:05",
      "pilot": "WandimBR",
@@ -134,14 +142,6 @@
      "rt": 0.034,
      "sum": 5.564,
      "t201": 5.53
-    },
-    {
-     "car": "bdl_gol_g4_dta",
-     "date": "2026-11-15T02:35:24",
-     "pilot": "TheMonsterBr",
-     "rt": 0.189,
-     "sum": 5.589,
-     "t201": 5.401
     },
     {
      "car": "bdl_gol_g4_dta",
@@ -182,6 +182,14 @@
      "rt": 0.355,
      "sum": 6.017,
      "t201": 5.663
+    },
+    {
+     "car": "bdl_saveiro_95_coyote_dta",
+     "date": "2026-11-15T05:29:32",
+     "pilot": "xburguer",
+     "rt": 0.243,
+     "sum": 7.606,
+     "t201": 7.363
     }
    ]
   },
@@ -194,6 +202,30 @@
      "rt": 0.069,
      "sum": 5.102,
      "t201": 5.033
+    },
+    {
+     "car": "rx8_drag",
+     "date": "2026-11-15T06:15:50",
+     "pilot": "xburguer",
+     "rt": 0.308,
+     "sum": 5.217,
+     "t201": 4.909
+    },
+    {
+     "car": "bdl_opala_bs",
+     "date": "2026-11-15T04:11:08",
+     "pilot": "TheMonsterBr",
+     "rt": 0.143,
+     "sum": 5.566,
+     "t201": 5.422
+    },
+    {
+     "car": "bdl_opala_bs",
+     "date": "2026-11-15T06:11:09",
+     "pilot": "Felps #0265",
+     "rt": 0.008,
+     "sum": 11.572,
+     "t201": 11.563
     }
    ]
   }
