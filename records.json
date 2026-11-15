@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T09:52:47",
+ "generated_at": "2026-11-15T16:38:53",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -112,20 +112,20 @@
      "t201": 5.376
     },
     {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-15T16:35:30",
+     "pilot": "TheMonsterBr",
+     "rt": 0.022,
+     "sum": 5.413,
+     "t201": 5.391
+    },
+    {
      "car": "bdl_voyage_dta_sulask",
      "date": "2026-11-14T14:28:27",
      "pilot": "Nicolas #2626",
      "rt": 0.012,
      "sum": 5.449,
      "t201": 5.437
-    },
-    {
-     "car": "bdl_gol_g4_dta",
-     "date": "2026-11-15T03:14:20",
-     "pilot": "TheMonsterBr",
-     "rt": 0.046,
-     "sum": 5.473,
-     "t201": 5.427
     },
     {
      "car": "bdl_fiat_uno_dta_braga",
