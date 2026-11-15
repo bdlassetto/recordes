@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-11-15T16:38:53",
+ "generated_at": "2026-11-15T21:14:39",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-15T16:53:20",
+     "pilot": "Felps #0265",
+     "rt": 0.009,
+     "sum": 6.583,
+     "t201": 6.575
+    },
     {
      "car": "bdl_gol_bola_gti_toyo",
      "date": "2026-11-15T09:46:22",
@@ -12,12 +20,12 @@
      "t201": 6.573
     },
     {
-     "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-15T05:14:06",
-     "pilot": "Felps #0265",
-     "rt": 0.002,
-     "sum": 6.597,
-     "t201": 6.595
+     "car": "bdl_gol_g4_toyo_endrews",
+     "date": "2026-11-15T19:58:28",
+     "pilot": "Endrews #85",
+     "rt": 0.004,
+     "sum": 6.617,
+     "t201": 6.613
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
@@ -34,14 +42,6 @@
      "rt": 0.002,
      "sum": 6.652,
      "t201": 6.649
-    },
-    {
-     "car": "bdl_gol_g4_toyo_endrews",
-     "date": "2026-11-12T19:05:51",
-     "pilot": "Endrews #85",
-     "rt": 0.013,
-     "sum": 6.661,
-     "t201": 6.648
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
@@ -136,6 +136,14 @@
      "t201": 5.483
     },
     {
+     "car": "bdl_voyage_dta_sulask",
+     "date": "2026-11-15T20:41:04",
+     "pilot": "marcolla #96",
+     "rt": 0.028,
+     "sum": 5.555,
+     "t201": 5.528
+    },
+    {
      "car": "bdl_gol_g4_bravo",
      "date": "2026-11-14T16:47:02",
      "pilot": "Bruno #07",
@@ -195,6 +203,14 @@
   },
   "bdl_velopark_dragbdlnoprepclassic": {
    "LISTA": [
+    {
+     "car": "bdl_lada_laika",
+     "date": "2026-11-15T19:12:51",
+     "pilot": "marcolla #96",
+     "rt": 0.031,
+     "sum": 4.482,
+     "t201": 4.451
+    },
     {
      "car": "bdl_opala_bs",
      "date": "2026-11-14T05:22:44",
