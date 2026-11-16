@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T21:14:39",
+ "generated_at": "2026-11-16T01:01:46",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -84,6 +84,14 @@
      "t201": 6.781
     },
     {
+     "car": "bdl_gol_ls",
+     "date": "2026-11-15T23:49:47",
+     "pilot": "LUCAODOPG",
+     "rt": 0.1,
+     "sum": 6.908,
+     "t201": 6.807
+    },
+    {
      "car": "bdl_gol_g4_toyo_endrews",
      "date": "2026-11-12T20:58:30",
      "pilot": "MIngas",
@@ -166,6 +174,14 @@
      "rt": 0.235,
      "sum": 5.748,
      "t201": 5.513
+    },
+    {
+     "car": "bdl_dta_torres",
+     "date": "2026-11-15T23:37:10",
+     "pilot": "LUCAODOPG",
+     "rt": 0.186,
+     "sum": 5.798,
+     "t201": 5.612
     },
     {
      "car": "bdl_gol_bola_gti_cola",
