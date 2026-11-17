@@ -1,23 +1,95 @@
 {
- "generated_at": "2026-11-16T17:29:39",
+ "generated_at": "2026-11-17T00:58:01",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-16T15:26:34",
+     "date": "2026-11-16T19:21:53",
      "pilot": "Felps #0265",
-     "rt": 0.002,
-     "sum": 6.592,
-     "t201": 6.59
+     "rt": 0.045,
+     "sum": 6.589,
+     "t201": 6.544
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-16T15:59:50",
+     "date": "2026-11-16T19:51:47",
+     "pilot": "cipullinha",
+     "rt": 0.009,
+     "sum": 6.6,
+     "t201": 6.591
+    },
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-16T19:42:27",
      "pilot": "danilotorezani",
+     "rt": 0.014,
+     "sum": 6.642,
+     "t201": 6.629
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-16T22:57:12",
+     "pilot": "TheMonsterBr",
+     "rt": 0.0,
+     "sum": 6.671,
+     "t201": 6.67
+    },
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-16T23:12:44",
+     "pilot": "marcolla #96",
+     "rt": 0.069,
+     "sum": 6.715,
+     "t201": 6.646
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-17T00:24:19",
+     "pilot": "Pedra",
+     "rt": 0.063,
+     "sum": 6.784,
+     "t201": 6.722
+    }
+   ]
+  },
+  "bdl_spid_prep201": {
+   "DTA": [
+    {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-16T21:20:22",
+     "pilot": "Felps #0265",
+     "rt": 0.004,
+     "sum": 5.319,
+     "t201": 5.315
+    },
+    {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-16T23:31:42",
+     "pilot": "TheMonsterBr",
      "rt": 0.005,
-     "sum": 6.672,
-     "t201": 6.667
+     "sum": 5.401,
+     "t201": 5.396
+    },
+    {
+     "car": "bdl_voyage_dta_sulask",
+     "date": "2026-11-16T23:33:25",
+     "pilot": "marcolla #96",
+     "rt": 0.056,
+     "sum": 5.474,
+     "t201": 5.418
+    }
+   ]
+  },
+  "bdl_velopark_dragbdlnoprepclassic": {
+   "LISTA": [
+    {
+     "car": "chevrolet_c10_#032",
+     "date": "2026-11-16T23:55:50",
+     "pilot": "TheMonsterBr",
+     "rt": 0.037,
+     "sum": 5.369,
+     "t201": 5.332
     }
    ]
   }
