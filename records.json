@@ -1,23 +1,55 @@
 {
- "generated_at": "2026-11-17T00:58:01",
+ "generated_at": "2026-11-17T08:46:36",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-16T19:21:53",
-     "pilot": "Felps #0265",
-     "rt": 0.045,
-     "sum": 6.589,
-     "t201": 6.544
+     "date": "2026-11-17T03:52:27",
+     "pilot": "cipullinha",
+     "rt": 0.009,
+     "sum": 6.482,
+     "t201": 6.473
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-17T03:07:08",
+     "pilot": "Vido",
+     "rt": 0.03,
+     "sum": 6.483,
+     "t201": 6.453
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-16T19:51:47",
-     "pilot": "cipullinha",
+     "date": "2026-11-17T03:17:40",
+     "pilot": "/",
+     "rt": 0.038,
+     "sum": 6.504,
+     "t201": 6.465
+    },
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-17T03:59:19",
+     "pilot": "Felps #0265",
      "rt": 0.009,
-     "sum": 6.6,
-     "t201": 6.591
+     "sum": 6.535,
+     "t201": 6.526
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-17T03:11:23",
+     "pilot": "silva",
+     "rt": 0.007,
+     "sum": 6.625,
+     "t201": 6.618
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-17T01:54:59",
+     "pilot": "Pedra",
+     "rt": 0.028,
+     "sum": 6.638,
+     "t201": 6.611
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
@@ -36,20 +68,20 @@
      "t201": 6.67
     },
     {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-17T02:05:55",
+     "pilot": "marfil",
+     "rt": 0.005,
+     "sum": 6.677,
+     "t201": 6.672
+    },
+    {
      "car": "bdl_gol_bola_gti_toyo",
      "date": "2026-11-16T23:12:44",
      "pilot": "marcolla #96",
      "rt": 0.069,
      "sum": 6.715,
      "t201": 6.646
-    },
-    {
-     "car": "bdl_gol_g4_toyo",
-     "date": "2026-11-17T00:24:19",
-     "pilot": "Pedra",
-     "rt": 0.063,
-     "sum": 6.784,
-     "t201": 6.722
     }
    ]
   },
