@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T07:10:09",
+ "generated_at": "2026-11-18T22:58:47",
  "tracks": {
   "bdl_race_valley": {
    "TOYO": [
@@ -137,11 +137,11 @@
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-16T23:12:44",
+     "date": "2026-11-18T16:29:01",
      "pilot": "marcolla #96",
-     "rt": 0.069,
-     "sum": 6.715,
-     "t201": 6.646
+     "rt": 0.022,
+     "sum": 6.712,
+     "t201": 6.69
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
