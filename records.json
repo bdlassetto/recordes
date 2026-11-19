@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T22:58:47",
+ "generated_at": "2026-11-19T03:58:19",
  "tracks": {
   "bdl_race_valley": {
    "TOYO": [
@@ -137,11 +137,11 @@
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
-     "date": "2026-11-18T16:29:01",
+     "date": "2026-11-18T23:22:16",
      "pilot": "marcolla #96",
-     "rt": 0.022,
-     "sum": 6.712,
-     "t201": 6.69
+     "rt": 0.033,
+     "sum": 6.707,
+     "t201": 6.674
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
@@ -188,12 +188,12 @@
      "t201": 5.396
     },
     {
-     "car": "bdl_voyage_dta_sulask",
-     "date": "2026-11-16T23:33:25",
+     "car": "bdl_fiat_uno_dta_braga",
+     "date": "2026-11-18T23:06:01",
      "pilot": "marcolla #96",
-     "rt": 0.056,
-     "sum": 5.474,
-     "t201": 5.418
+     "rt": 0.023,
+     "sum": 5.473,
+     "t201": 5.449
     },
     {
      "car": "bdl_gol_quadrado_95_dta",
@@ -202,6 +202,14 @@
      "rt": 0.037,
      "sum": 5.647,
      "t201": 5.61
+    },
+    {
+     "car": "bdl_gol_g4_dta_endrews",
+     "date": "2026-11-19T03:57:37",
+     "pilot": "xburguer",
+     "rt": 0.242,
+     "sum": 5.796,
+     "t201": 5.554
     },
     {
      "car": "bdl_gol_g4_dta_endrews",
@@ -217,11 +225,11 @@
    "LISTA": [
     {
      "car": "bdl_opala_bs",
-     "date": "2026-11-18T04:44:06",
+     "date": "2026-11-19T03:24:23",
      "pilot": "xburguer",
-     "rt": 0.086,
-     "sum": 4.982,
-     "t201": 4.896
+     "rt": 0.054,
+     "sum": 4.831,
+     "t201": 4.776
     },
     {
      "car": "chevrolet_c10_#032",
