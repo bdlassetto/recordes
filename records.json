@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T23:24:34",
+ "generated_at": "2026-11-21T04:05:28",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -10,6 +10,22 @@
      "rt": 0.005,
      "sum": 6.553,
      "t201": 6.548
+    },
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-21T00:04:36",
+     "pilot": "marfil",
+     "rt": 0.021,
+     "sum": 6.599,
+     "t201": 6.578
+    },
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-21T01:20:08",
+     "pilot": "BOLSONARO",
+     "rt": 0.031,
+     "sum": 6.601,
+     "t201": 6.571
     },
     {
      "car": "bdl_gol_g4_toyo",
@@ -28,12 +44,20 @@
      "t201": 6.622
     },
     {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-21T00:58:00",
+     "pilot": "marcolla #96",
+     "rt": 0.024,
+     "sum": 6.657,
+     "t201": 6.633
+    },
+    {
      "car": "bdl_gol_g4_toyo",
-     "date": "2026-11-20T22:40:41",
+     "date": "2026-11-21T00:56:22",
      "pilot": "TheMonsterBr",
-     "rt": 0.017,
-     "sum": 6.711,
-     "t201": 6.694
+     "rt": 0.013,
+     "sum": 6.67,
+     "t201": 6.657
     },
     {
      "car": "bdl_gol_bola_gti_toyo",
@@ -42,6 +66,14 @@
      "rt": 0.038,
      "sum": 6.712,
      "t201": 6.675
+    },
+    {
+     "car": "bdl_gol_g4_toyo",
+     "date": "2026-11-21T01:47:57",
+     "pilot": "Pedra",
+     "rt": 0.314,
+     "sum": 7.018,
+     "t201": 6.703
     }
    ]
   },
@@ -54,6 +86,14 @@
      "rt": 0.003,
      "sum": 5.324,
      "t201": 5.321
+    },
+    {
+     "car": "bdl_dta_gol_hulk",
+     "date": "2026-11-21T02:59:18",
+     "pilot": "BOLSONARO",
+     "rt": 0.04,
+     "sum": 5.478,
+     "t201": 5.438
     },
     {
      "car": "bdl_voyage_dta_sulask",
