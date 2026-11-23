@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T00:12:30",
+ "generated_at": "2026-11-23T07:32:26",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -104,6 +104,14 @@
      "t201": 6.822
     },
     {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-23T01:06:06",
+     "pilot": "marfil",
+     "rt": 0.075,
+     "sum": 6.908,
+     "t201": 6.832
+    },
+    {
      "car": "bdl_gol_g4_toyo_endrews",
      "date": "2026-11-22T03:24:28",
      "pilot": "Endrews #85",
@@ -120,6 +128,14 @@
      "t201": 6.913
     },
     {
+     "car": "bdl_g2_toyo_torres",
+     "date": "2026-11-23T01:14:04",
+     "pilot": "BOLSONARO",
+     "rt": 0.036,
+     "sum": 6.964,
+     "t201": 6.928
+    },
+    {
      "car": "bdl_gol_bola_gti_toyo",
      "date": "2026-11-22T04:30:17",
      "pilot": "xburguer",
@@ -128,20 +144,36 @@
      "t201": 6.955
     },
     {
-     "car": "bdl_g2_toyo_torres",
-     "date": "2026-11-22T01:43:28",
-     "pilot": "BOLSONARO",
-     "rt": 0.067,
-     "sum": 6.988,
-     "t201": 6.922
-    },
-    {
      "car": "bdl_gol_bola_gti_toyo",
      "date": "2026-11-22T17:56:49",
      "pilot": "danilotorezani",
      "rt": 0.03,
      "sum": 6.988,
      "t201": 6.958
+    },
+    {
+     "car": "bdl_gol_ls",
+     "date": "2026-11-23T02:15:18",
+     "pilot": "Rafael",
+     "rt": 0.04,
+     "sum": 7.244,
+     "t201": 7.204
+    },
+    {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-23T01:47:33",
+     "pilot": "Loko",
+     "rt": 0.152,
+     "sum": 7.255,
+     "t201": 7.103
+    },
+    {
+     "car": "bdl_toyo_90_vitin",
+     "date": "2026-11-23T02:09:27",
+     "pilot": "Pedro",
+     "rt": 0.252,
+     "sum": 7.418,
+     "t201": 7.166
     },
     {
      "car": "bdl_gol_g4_toyo",
@@ -188,12 +220,20 @@
      "t201": 5.438
     },
     {
-     "car": "bdl_fiat_uno_dta_braga",
-     "date": "2026-11-23T00:10:59",
+     "car": "bdl_gol_bola_48",
+     "date": "2026-11-23T00:58:22",
      "pilot": "marcolla #96",
-     "rt": 0.088,
-     "sum": 5.772,
-     "t201": 5.683
+     "rt": 0.087,
+     "sum": 5.57,
+     "t201": 5.483
+    },
+    {
+     "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-11-23T00:36:19",
+     "pilot": "Nunes",
+     "rt": 0.174,
+     "sum": 5.729,
+     "t201": 5.555
     },
     {
      "car": "bdl_voyage_dta_sulask",
@@ -210,14 +250,6 @@
      "rt": 1.069,
      "sum": 7.497,
      "t201": 6.428
-    },
-    {
-     "car": "bdl_gol_quadrado_95_dta",
-     "date": "2026-11-23T00:10:24",
-     "pilot": "Nunes",
-     "rt": 0.266,
-     "sum": 7.907,
-     "t201": 7.642
     }
    ]
   },
@@ -246,6 +278,22 @@
      "rt": 0.191,
      "sum": 5.485,
      "t201": 5.294
+    },
+    {
+     "car": "g76_vw_gol_pajaro",
+     "date": "2026-11-23T02:29:03",
+     "pilot": "Rafael",
+     "rt": 0.264,
+     "sum": 5.848,
+     "t201": 5.584
+    },
+    {
+     "car": "bdl_chevette_rua_witor",
+     "date": "2026-11-23T02:32:18",
+     "pilot": "Pedro",
+     "rt": 0.746,
+     "sum": 7.392,
+     "t201": 6.645
     }
    ]
   }
