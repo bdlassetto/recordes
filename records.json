@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T19:06:59",
+ "generated_at": "2026-11-23T00:12:30",
  "tracks": {
   "bdl_race_valley_noprep": {
    "TOYO": [
@@ -96,6 +96,14 @@
   "bdl_spid_noprep201": {
    "TOYO": [
     {
+     "car": "bdl_gol_bola_gti_toyo",
+     "date": "2026-11-22T21:30:36",
+     "pilot": "Felps #0265",
+     "rt": 0.022,
+     "sum": 6.844,
+     "t201": 6.822
+    },
+    {
      "car": "bdl_gol_g4_toyo_endrews",
      "date": "2026-11-22T03:24:28",
      "pilot": "Endrews #85",
@@ -164,12 +172,28 @@
      "t201": 5.321
     },
     {
+     "car": "bdl_gol_g4_dta",
+     "date": "2026-11-22T20:29:09",
+     "pilot": "TheMonsterBr",
+     "rt": 0.019,
+     "sum": 5.461,
+     "t201": 5.442
+    },
+    {
      "car": "bdl_dta_gol_hulk",
      "date": "2026-11-21T02:59:18",
      "pilot": "BOLSONARO",
      "rt": 0.04,
      "sum": 5.478,
      "t201": 5.438
+    },
+    {
+     "car": "bdl_fiat_uno_dta_braga",
+     "date": "2026-11-23T00:10:59",
+     "pilot": "marcolla #96",
+     "rt": 0.088,
+     "sum": 5.772,
+     "t201": 5.683
     },
     {
      "car": "bdl_voyage_dta_sulask",
@@ -186,6 +210,14 @@
      "rt": 1.069,
      "sum": 7.497,
      "t201": 6.428
+    },
+    {
+     "car": "bdl_gol_quadrado_95_dta",
+     "date": "2026-11-23T00:10:24",
+     "pilot": "Nunes",
+     "rt": 0.266,
+     "sum": 7.907,
+     "t201": 7.642
     }
    ]
   },
